@@ -57,7 +57,7 @@ source_encoding = 'utf-8'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Primeiros Passos'
+project = 'Guia Inicial'
 copyright = '2017, Automacao-IOT'
 author = 'Automacao IOT'
 

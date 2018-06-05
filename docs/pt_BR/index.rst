@@ -1,5 +1,5 @@
-﻿Primeiros Passos
-=================
+﻿Guia Inicial
+============
 
 If you are looking for the english documentation go to `here`_.
 
@@ -31,12 +31,6 @@ If you are looking for the english documentation go to `here`_.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Outras Plataformas:
+   :caption: API:
 
-   plataforma/plataforma
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Links Externos:
-
-  links-externo/links-externo  
+   api/api

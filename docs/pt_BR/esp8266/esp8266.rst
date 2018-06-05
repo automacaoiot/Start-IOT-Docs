@@ -74,11 +74,23 @@ Após o término o ESP8266 irá executar o SDK **Rele** e no site poderemos ver 
 Testando o Recurso
 ~~~~~~~~~~~~~~~~~~
 
-Para testarmos o funcionamento do site com o ESP8266, poderemos para este caso, fazer uso de um LED, para isso basta ligar 
-o Positivo do LED na GPIO que foi inserido na linha de comando: rele= new Rele(**id do recurso**,GPIO2,RELE_CLOSED). Neste
-caso a **GPIO2** que é representado pelo pino **D4** do ESP8266 e o Negativo do LED no pino GND do ESP8266.
+Para testarmos o funcionamento do site com o ESP8266, deveremos ir para o Dashboard do Recurso e acessar a opção **Gerenciar Feed**
 
-.. image:: ../imagem/pinagem-ESP8266.png
+
+.. image:: ../imagem/dashboardFeed.png
     :align: center
 
+Selecionar o botão **Inserir**
 
+.. image:: ../imagem/inserirFEED.png
+    :align: center
+
+Ao selecionarmos **Ativar** e Gravar, iremos observar o Led do ESP8266 acender
+
+.. image:: ../imagem/ESP8266LedON.png
+    :align: center
+
+Ao selecionarmos **Desativar** e Gravar, iremos observar o Led do ESP8266 apagar
+
+.. image:: ../imagem/ESP8266LedOFF.png
+    :align: center
