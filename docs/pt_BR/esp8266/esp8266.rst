@@ -38,11 +38,15 @@ Deverão ser copiados do site as chaves Pública e Secreta do Dispositivo, atrav
 
 Deverão ser modificados as seguintes linhas de código:
 
-device=new Device(**chave pública**, **chave secreta**);
+.. code-block:: C
+
+    device=new Device(**chave pública**, **chave secreta**);
 
 Deverá ser copiado do site **Dashboard Recurso** o **id do Recurso**.
 
-rele= new Rele(**id do recurso**,GPIO2,RELE_CLOSED);
+.. code-block:: C
+
+    rele= new Rele(**id do recurso**,GPIO2,RELE_CLOSED);
 
 Para maiores informações consulte a documentação do SDK_ ESP8266.
 
