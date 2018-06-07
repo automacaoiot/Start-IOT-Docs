@@ -1,7 +1,7 @@
 API Automação-IOT
 -----------------
 
-A Automaççao-IOT utiliza um conjunto de rotinas padronizadas de programação denominado de API_ que serve de acesso para a  plataforma IOT baseado na WEB. Através da API que estabelecemos comunicação de entrada e/ou saída com os Dispositivos e/ou Recursos.
+A Automaçao-IOT utiliza um conjunto de rotinas padronizadas de programação denominado de API_ que serve de acesso para a  plataforma IOT baseado na WEB. Através da API que estabelecemos comunicação de entrada e/ou saída com os Dispositivos e/ou Recursos.
 
 
 .. _API: https://api-automacaoiot.readthedocs.io/pt_BR/latest/
@@ -22,7 +22,7 @@ Obtém informações sobre um determinado Dispositivo. Este EndPoint retorna dad
 
     GET api/device/{PUBLIC_KEY}
 
-**Implementação**
+**Requisição**
 
 .. code-block:: JSON
 
@@ -74,7 +74,7 @@ Recupera o último Registro de Feeds do Recurso.
 
     GET/api/device/{PUBLIC_KEY}/resource/{ID_RESOURCE}/feeds/last
 
-**Implementação**
+**Requisição**
 
 .. code-block:: JSON
 
@@ -97,3 +97,47 @@ Recupera o último Registro de Feeds do Recurso.
 	    },
 	    "message": ""
     }
+
+
+Create Resource Feeds	
++++++++++++++++++++++
+
+Insere um novo Registro de Feeds no recurso do Dispositivo.
+
+.. code-block:: JSON
+
+	POST /api/device/{PUBLIC_KEY}/resources/feeds
+
+**Requisição**
+
+.. code-block:: JSON
+
+	POST api/device/B07CFA0A9204228A30C68FB346C407E7/resources/feeds  HTTP/1.1  
+	Authorization: Bearer B8CE671CFE226CC190D5478E8E5A3CD7FB59D87F872278E59E4E6847B5E4B2F1  
+	Host: https://automacao-iot.com.br/api
+
+	Body:
+	[
+		{
+			"id_resource": 6,
+			"input": 1
+		}
+	]
+
+**Resposta**
+
+.. code-block:: JSON
+
+	{
+		"success": true,
+		"payload": {
+			"success": [{
+				"raw_data": true,
+				"id_resource": 6,
+				"created_at": "2018-06-07 12:33:01",
+				"id_resource_feed": 14604
+			}],
+			"failed": []
+		},
+		"message": ""
+	}

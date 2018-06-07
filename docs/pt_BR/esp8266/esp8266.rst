@@ -13,7 +13,7 @@ Antes de iniciarmos a gravação do SDK no ESP8266, deveremos ter conhecimento d
    - **makeflashinit**: Formata a Flash Eprom do ESP8266.
    - **make**: Compila o código fonte do SDK ESP8266.
    - **make flash**: Compila o código fonte do SDK ESP8266 e grava o resultado na Flash Eprom do ESP8266.
-   - **Serial**: Abre o terminal TTY com o ESP8266.
+   - **SERIAL**: Abre o terminal TTY com o ESP8266.
 
 
 Outros comandos deverão ser pesquisados no site do SMING_.

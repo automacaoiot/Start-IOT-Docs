@@ -12,7 +12,7 @@ a) Criar uma conta no site Automacao-iot_; e
 
 .. _Automacao-iot: https://automacao-iot.com.br
 
-b) Instalarmos o Docker_ ESP8266 SDK;
+b) Instalar o Docker_ ESP8266 SDK;
 
 .. _Docker: https://docker-docs.readthedocs.io/pt_BR/latest/
 
