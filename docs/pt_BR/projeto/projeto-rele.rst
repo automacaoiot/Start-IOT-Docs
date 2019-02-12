@@ -16,7 +16,7 @@ e) Dowload Putty_ ; e
 f) git clone ESP-SDK-MicroPython_.
 
 .. _ESP8266: https://github.com/automacaoiot/firmware/esp8266
-.. ESP-SDK-MicroPython_: https://github.com/automacaoiot/ESP-SDK-MICROPYTHON
+.. _ESP-SDK-MicroPython: https://github.com/automacaoiot/ESP-SDK-MICROPYTHON
 
 .. _Gravando Firmware:
 
