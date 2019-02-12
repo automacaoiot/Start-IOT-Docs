@@ -11,10 +11,12 @@ Para iniciarmos a execução do nosso projeto Rele IoT, deveremos:
 a) Dowload Firmware ESP8266_;
 b) Dowload Nodemcu_ Flash;
 c) Dowload WebRepl_ Client; 
-d) Dowload SDK_ ESP8266/32; e
-e) Dowload Putty_ .
+d) Dowload SDK_ ESP8266/32; 
+e) Dowload Putty_ ; e
+f) git clone ESP-SDK-MicroPython_.
 
 .. _ESP8266: https://github.com/automacaoiot/firmware/esp8266
+.. ESP-SDK-MicroPython_: https://github.com/automacaoiot/ESP-SDK-MICROPYTHON
 
 .. _Gravando Firmware:
 
@@ -160,14 +162,14 @@ Para verificarmos que o ESP8266 está conectado a rede WIFI, digite o seguinte c
 Enviando arquivos
 ~~~~~~~~~~~~~~~~~
 
-Após criarmos o arquivo main.py, deveremos enviá-lo para o ESP8266 bem como o arquivo rele.py, através do
-WebRepl_ Client
+Após criarmos o arquivo main.py, deveremos enviá-lo para o ESP8266 bem como o arquivo Rele.py (ESP-SDK-MicroPython_), 
+através do WebRepl_ Client.
 
 .. image:: ../imagem/webrepl_envia.png
     :align: center
 
 Configurar com o IP do ESP8266 que foi informado no tópico _Configurando o ESP8266, informe a senha solicitada
-que foi cadastrado (import webrepl_setup), em seguida devremos enviar os arquivos: main.py e rele.py
+que foi cadastrado (import webrepl_setup), em seguida devremos enviar os arquivos: main.py e Rele.py.
 
 .. _Conectando o Rele ao ESP8266:
 
@@ -200,7 +202,7 @@ Modificando o Feed do recurso:
 
 Selecionar o botão **Inserir**
 
-.. image:: ../imagem/inserirFEED.png
+.. image:: ../imagem/inserirFeed.png
     :align: center
 
 Ao selecionarmos **Ativar** e Gravar, iremos observar o Led do ESP8266 acender, bem como será realizado o acionamento do Rele.
