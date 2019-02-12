@@ -19,18 +19,24 @@ If you are looking for the english documentation go to `here`_.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Docker:
-
-   docker/docker
-
-.. toctree::
-   :maxdepth: 2
-   :caption: ESP8266:
-
-   esp8266/esp8266
-
-.. toctree::
-   :maxdepth: 2
    :caption: API:
 
    api/api
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Micropython:
+
+   micropython/micropython
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Projeto Rele:
+
+   projeto/projeto-rele
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Links Externos:
+
+  links-externo/links-externo  
