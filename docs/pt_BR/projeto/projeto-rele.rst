@@ -15,7 +15,7 @@ d) Dowload SDK_ ESP8266/32;
 e) Dowload Putty_ ; e
 f) Dowload Zip ESP-SDK-MicroPython_.
 
-.. _ESP8266: https://github.com/automacaoiot/firmware/esp8266
+.. _ESP8266: https://github.com/automacaoiot/IOT-FIRMWARE/tree/master/ESP/ESP8266
 .. _ESP-SDK-MicroPython: https://github.com/automacaoiot/ESP-SDK-MICROPYTHON
 
 .. _Gravando Firmware:

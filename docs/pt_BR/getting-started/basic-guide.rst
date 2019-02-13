@@ -14,5 +14,5 @@ c) Disponibilizar um ESP8266 para gravarmos o binário; e
 d) Criar o projeto Rele para testarmos o firmware MicroPython IoT.
 
 .. _Automacao-iot: https://automacao-iot.com.br
-.. _ESP8266: https://github.com/automacaoiot/firmware/esp8266
-.. _ESP32: https://github.com/automacaoiot/firmware/esp32
+.. _ESP8266: https://github.com/automacaoiot/IOT-FIRMWARE/tree/master/ESP/ESP8266
+.. _ESP32: https://github.com/automacaoiot/IOT-FIRMWARE/tree/master/ESP/ESP32
