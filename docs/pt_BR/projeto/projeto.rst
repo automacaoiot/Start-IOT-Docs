@@ -1,5 +1,5 @@
-Projeto Rele
-------------
+Projeto
+-------
 
 .. _Pré-requisitos:
 
@@ -141,20 +141,9 @@ Deveremos informar a senha a ser utlizada e em seguida confirmar o reset do ESP.
 
 .. code-block:: C
 
-    import network;
-    wlan = network.WLAN(network.STA_IF);
-    wlan.active(True);
-    wlan.connect('SSID', 'PWD');
+    import wifi_setup;
 
-SSID deverá ser substituído pelo nome da rede WIFI
-
-PWD  deverá ser substituído pela senha da rede WIFI
-
-Para verificarmos que o ESP8266 está conectado a rede WIFI, digite o seguinte comando:
-
-.. code-block:: C
-
-    wlan.ifconfig()
+Deveremos informar SSID e PWD da rede WIFI.
 
 
 .. _Enviando arquivos:
@@ -173,21 +162,6 @@ que foi cadastrado (import webrepl_setup), em seguida devremos enviar os arquivo
 
 .. _Conectando o Rele ao ESP8266:
 
-Conectando o Rele ao ESP8266
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-
-Deveremos conectar:
-
-.. code-block:: JSON
-
-    IN do rele a GPIO02 do ESP8266.
-    VCC do rele ao VCC do ESP8266
-    GND do rele ao GND do ESP8266
-
-.. image:: ../imagem/rele.png
-    :align: center
-
-
 .. _Testando o Device e o Recurso:
 
 Testando o Device e o Recurso
@@ -205,12 +179,12 @@ Selecionar o botão **Inserir**
 .. image:: ../imagem/inserirFeed.png
     :align: center
 
-Ao selecionarmos **Ativar** e Gravar, iremos observar o Led do ESP8266 acender, bem como será realizado o acionamento do Rele.
+Ao selecionarmos **Ativar** e Gravar, iremos observar o Led do ESP8266 acender.
 
 .. image:: ../imagem/ESP8266LedON.png
     :align: center
 
-Ao selecionarmos **Desativar** e Gravar, iremos observar o Led do ESP8266 apagar, Rele será desativado.
+Ao selecionarmos **Desativar** e Gravar, iremos observar o Led do ESP8266 apagar.
 
 .. image:: ../imagem/ESP8266LedOFF.png
     :align: center
